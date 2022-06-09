@@ -5,6 +5,7 @@
 
   <head>
       <link rel="stylesheet" href="style.css">
+      <script src="scripts.js"> </script>
       Título de página
   </head>
 
@@ -24,19 +25,29 @@
 
     <a href="www.google.com" target="_blank"> Primer Link </a>
 
-    <ul>  <!--ul: Unordered List>
-      <li>Primer</li> <!--li: List Item>
+    <ul>  <!--ul: Unordered List-->
+      <li>Primer</li> <!--li: List Item-->
       <li>Secondo</li>
       <li>Tirchero</li>
     </ul>
 
-    <ol> <!--ol: Ordered List>
+    <ol> <!--ol: Ordered List-->
       <li>Primer</li>
       <li>Secondo</li>
       <li>Tirchero</li>
     </ol>
 
+    <button type="button" onclick="ASD()"> Click </button>
+    <button type="button" onclick="ABC()"> Click </button>
+
+    <p id="ASD" >Hola</p>
+    <p id="ABC">BLABL <span id="BLA">asdasdasd</span>  ABALBALBALAB</p>
+
+    <script> let x = document.getElementById("ASD").style; document.write(x)</script>
+
   </body>
+
+  <div class = "loader"> </div>
 
 
 </html>
